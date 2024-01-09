@@ -1,0 +1,284 @@
+@charset "UTF-8";
+/*!
+Theme Name: Airi Child
+Theme URI: https://athemes.com/theme/airi
+Author: aThemes
+Author URI: https://athemes.com
+Template: airi
+Description: Airi is a powerful yet lightweight and flexible theme for any organization or freelancer. With the Elementor integration, you can create a great-looking website with all necessary functionalities, without any hassle. Thanks to a wealth of customization options, you easily create a site for your business that fits your style and needs. Start from scratch, or go for one of the pre-made Elementor layouts. Looking for a theme that suits your e-commerce business? Look no further: Airi offers full WooCommerce support, so you can easily sell your products. Happy building!
+Version: 1.0.16
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tested up to: 5.7.2
+Requires PHP: 5.6
+Text Domain: airi
+Tags: custom-background, right-sidebar, custom-colors, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, full-width-template
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Airi is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+*/
+
+
+
+
+
+.atu-agency-video img {
+	display: none !important;
+}
+.atu-agency-video .eicon-play {
+	font-size: 62px;
+}
+.atu-agency-video .elementor-custom-embed-image-overlay {
+	height: 60px;
+}
+.atu-agency-progress .elementor-progress-wrapper {
+	height: 8px;
+	line-height: 8px;
+}
+.atu-agency-progress .elementor-progress-percentage {
+	position: relative;
+	top: -16px;
+	font-weight: 500;
+	font-size: 14px;
+}
+.athemes-blog:not(.atu_athemes_blog_skin) .posted-on a {
+	color: #df2176;
+}
+.atu-agency-testimonials .elementor-testimonial-meta::after {
+	content: "\f10e";
+	font-family: Fontawesome;
+	float: right;
+	color: #ebebeb;
+	font-size: 32px;
+	position: relative;
+	top: 5px;
+}
+
+/* Contact page map */
+.contact-page-map #atu-map {
+	height: 400px;
+}
+.contact-page-form label,
+.contact-page-form input:not(.wpcf7-submit),
+.contact-page-form select {
+	width: 100%;
+	max-width: 100%;
+}
+.contact-page-form select {
+	padding: 17px 20px;
+}
+.contact-page-form .wpcf7-submit {
+	width: auto;
+	margin: 0 auto;
+	display: table;
+	border-radius: 30px;
+	box-shadow: 0 5px 35px 0 rgba(51, 51, 51, 0.26);
+}
+.contact-page-form .row {
+	margin-bottom: 10px;
+}
+.site-header {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
+}
+button, .button, input[type="button"], input[type="reset"], input[type="submit"] {
+	border-radius: 30px;
+}
+.page-id-198 #masthead {
+	background-color: #000000;
+}
+@media ( max-width: 600px ) {
+	.elementor-4 .elementor-element.elementor-element-14cde3a {
+		background-image: none !important;
+	}
+}
+
+
+
+
+.site-title {display: none;}
+.site-description {display: none;}
+ul.header-search-cart {
+display: none;
+}
+
+.regiondo-widget .regiondo-intro-text {color:#fff !important}
+
+
+/*  .menuStyle1.page-template-template_page-builder .site-header {    background-color:#150F25;  }*/
+  
+  .mobile-menu-toggle {background-color:transparent !important;} 
+  
+  
+  
+  
+  
+  
+#ppc-button {width: 100%;text-align: center;}
+  
+  
+  
+  
+  
+  
+.woocommerce-page , .woocommerce-page table td a, .woocommerce-page table th  {color:#fff}
+
+.woocommerce-page h1 {color:#fff}
+.woocommerce-page h2 {color:#f2295b}
+.woocommerce-page h3 {color:#fff}
+
+.woocommerce-page a {color:#FFBB5F}
+
+.woocommerce-page #content { background-color: #000;}
+.woocommerce table.shop_table a {color:#fff}
+.woocommerce table.shop_table thead th {color:#fff;background-color:#222;padding:15px;}
+.woocommerce table.shop_table  td {color:#fff;padding:15px;}
+.woocommerce-message {border-top-color:#111; background-color:#111;color:#8fae1b}
+.elementor-column-gap-default >.elementor-column >.elementor-element-populated {padding:0px !important}
+
+
+.product-subtotal {padding-right: 5%;text-align:right;}
+
+
+.product-remove a.remove {border:0px;}
+
+
+.woocommerce-cart .cart-collaterals .cart_totals {margin-top:50px;}
+.woocommerce-cart .cart-collaterals .cart_totals th {text-align:left;}
+.woocommerce-cart .cart-collaterals .cart_totals td {padding-right: 5%;text-align:right;}
+
+.woocommerce-cart .cart-collaterals .cart_totals table tr.order-total th,
+.woocommerce-cart .cart-collaterals .cart_totals table tr.order-total td {border-top:3px double;background-color:#222;}
+
+.woocommerce-cart .cart-collaterals .cart_totals table tr.order-tax th,
+.woocommerce-cart .cart-collaterals .cart_totals table tr.order-tax td {font-weight:normal;padding-top:10px;font-size:0.9em;border-bottom:0px;}
+.woocommerce-cart .cart-collaterals .cart_totals table tr.order-tax * {color:#666}
+  
+.woocommerce-page .button {background-image: linear-gradient(260deg, #FFBB5F 0%, #f2295b 100%) !important}
+.woocommerce button.button:disabled, .woocommerce button.button:disabled[disabled] {background-color:#ebe9eb;background-image:none !important;}
+.woocommerce ul#shipping_method li {margin:0;}
+ 
+ 
+ #customer_details .col-1 {background-color:#222;padding:10px;}
+ #order_review {margin-top:4em;}
+ 
+ 
+ .woocommerce-checkout #payment {background-color:#222;border-radius:0;}
+ 
+ .woocommerce-page .woocommerce-checkout #payment div.payment_box p { color:#222 !important}
+ 
+ .woocommerce-checkout #payment ul.payment_methods {border-bottom:0;}
+ 
+ 
+.wc-gzd-checkbox-placeholder-legal {font-size:0.9em;}
+
+
+
+
+.woocommerce-checkout .shop_table {background-color:#000 !important}
+.woocommerce-checkout table.shop_table {border-width:0px;}
+.woocommerce-checkout table.shop_table a {color:#fff;}
+.woocommerce-checkout table.shop_table thead th {color:#fff;background-color:#222;padding:15px;}
+.woocommerce-checkout table.shop_table  td {color:#fff;padding:15px;}
+
+
+.woocommerce-checkout table.shop_table  .product-total {text-align:right;}
+
+.woocommerce-checkout table.shop_table tfoot th,
+.woocommerce-checkout table.shop_table tfoot td {text-align:right;}
+
+
+.woocommerce-checkout table tr.order-total th,
+.woocommerce-checkout table tr.order-total td {border-top:3px double;background-color:#222;}
+
+.woocommerce-checkout table tr.order-tax th,
+.woocommerce-checkout table tr.order-tax td {font-weight:normal;padding-top:10px;font-size:0.9em;border-bottom:0px;}
+.woocommerce-cart .cart-collaterals .cart_totals table tr.order-tax * {color:#666}
+
+
+.product h2 {}
+.woocommerce ul.products li.product .price {color:#f2295b}
+
+.regiondo-widget .regiondo-intro-text {color:#fff !important}
+
+
+.main-navigation + .header-search-cart {margin:0;margin-left:10px;}
+
+
+.wpcf7 label {color:#fff;width:100%;}
+.wpcf7 input, .wpcf7 textarea  {    background-color: transparent;width:100%;}
+
+
+.mobile-menu-toggle {background-color:none;padding: 15px 20px;}
+
+
+/*Höhe der Navigation Desktop*/
+.site-header {    padding: 20px 0;}
+
+@media ( min-width: 801px ) {
+	.site-branding {flex:10%;max-width:100px;}
+    .site-menu {flex:90%;max-width:100%;}
+    .header-mobile-menu {flex:90%;max-width:100%;}
+
+}
+
+
+.main-navigation li {   padding: 0 15px; }
+#menu-item-4706 {background-color: #CB3078;    padding: 5px 15px;border-radius:5px;}
+
+
+
+@media ( max-width: 801px ) {
+	
+	/*Mobiles Menu*/
+	#site-navigation ul ul li {    background-color: rgba(255,255,255,0.85) !important;    border: none;    max-width: 100%;    margin: 2px auto;}
+	
+  	.main-navigation ul .sub-menu, .main-navigation ul .children {    display: none;    background: none;  }	
+	
+	#menu-item-4706 {       padding: 0px 15px;  }
+	
+	#menu-menu > li {border-bottom:1px solid #ccc;padding:0; }
+	#menu-menu > li:first-of-type { border-top:1px solid #ccc}
+	
+	
+	.main-navigation ul .subnav-toggle {    height: 100%;    width: 100%;}
+	.main-navigation ul .subnav-toggle:before {
+    content: "+";
+    display: inline-block;
+    color: inherit;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 60px;
+    speak: none;
+    transform: rotate(0deg);
+    transition: all 0.2s ease;
+		position:absolute;right:10px;
+}
+}
+
+
+
+
+/*Formulare*/
+.wpcf7 form.invalid .wpcf7-response-output {background-color:#ffb900;color:#000}
+.wpcf7 form.sent .wpcf7-response-output {background-color:#46b450;}
+
+
+
+
+
+
+
+
+/*Indidivudlell Klassen für Elementor*/
+.sbvr {font-family:"greycliff-cf"; letter-spacing: 5px;}
+
+h1.sbvr {font-size: 80px; font-weight:700;color:#fff;}
+h2.sbvr {font-size: 60px; font-weight:700;color:#fff;}
+h3.sbvr {font-size: 40px; font-weight:700;}
+h4.sbvr {font-size: 40px; font-weight:700;}
+h5.sbvr {font-size: 40px; font-weight:700;}
+h6.sbvr {font-size: 40px; font-weight:700;}
